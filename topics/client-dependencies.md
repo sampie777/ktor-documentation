@@ -36,7 +36,7 @@ For a multiplatform project, you need to add the `ktor-client-core` artifact to 
 
 ```kotlin
 ```
-{src="snippets/tutorial-client-kmm/shared/build.gradle.kts" include-lines="27-31"}
+{src="snippets/tutorial-client-kmm/shared/build.gradle.kts" include-lines="25-31"}
 
 
 
