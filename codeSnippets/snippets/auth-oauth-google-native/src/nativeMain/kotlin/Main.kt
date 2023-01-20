@@ -1,6 +1,6 @@
 import io.ktor.client.*
 import io.ktor.client.call.*
-import io.ktor.client.engine.cio.*
+import io.ktor.client.engine.curl.*
 import io.ktor.client.plugins.contentnegotiation.*
 import io.ktor.client.request.*
 import io.ktor.http.*
@@ -18,7 +18,7 @@ import kotlinx.html.*
 import kotlinx.serialization.*
 import platform.posix.*
 
-val applicationHttpClient = HttpClient(CIO) {
+val applicationHttpClient = HttpClient(Curl) {
     install(ContentNegotiation) {
         json()
     }
