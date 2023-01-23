@@ -42,6 +42,15 @@
 
     </variables>
     
-    <build-profile product="ktor"/>
+    <build-profile instance="ktor"/>
+
+    <footer>
+        <social type="github" href="https://github.com/ktorio/ktor"/>
+        <social type="twitter" href="https://twitter.com/jetbrainsktor/"/>
+        <social type="slack" href="https://app.slack.com/client/T09229ZC6/C0A974TJ9"/>
+        <social type="reddit" href="https://www.reddit.com/r/ktor/"/>
+        <social type="blog" href="https://blog.jetbrains.com/ktor/"/>
+        <social type="stackoverflow" href="https://stackoverflow.com/questions/tagged/ktor"/>
+    </footer>
  
 </buildprofiles>
